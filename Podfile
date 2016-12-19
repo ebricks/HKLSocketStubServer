@@ -1,2 +1,8 @@
-platform :ios,'7.0'
-pod 'CocoaAsyncSocket', '~> 7.3.4'
+platform :ios,'8.0'
+
+target 'HKLSocketStubServer' do
+	pod 'CocoaAsyncSocket', '~> 7.5.1'
+    
+    target 'HKLSocketStubServerTests' do
+    end
+end

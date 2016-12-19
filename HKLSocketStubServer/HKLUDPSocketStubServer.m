@@ -7,6 +7,7 @@
 //
 
 #import "HKLUDPSocketStubServer.h"
+#import "NSDataEx.h"
 
 #pragma mark - HKLUDPSocketStubServer class
 @interface HKLUDPSocketStubServer () <GCDAsyncUdpSocketDelegate>

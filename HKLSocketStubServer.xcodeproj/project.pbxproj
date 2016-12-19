@@ -21,13 +21,11 @@
 		1A593D6018F0F1A50015BFB6 /* HKLSocketStubResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A593D5E18F0F1A50015BFB6 /* HKLSocketStubResponseTests.m */; };
 		1A593D6118F0F1A50015BFB6 /* HKLSocketStubServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A593D5F18F0F1A50015BFB6 /* HKLSocketStubServerTests.m */; };
 		1A593D6318F0FD390015BFB6 /* HKLTCPSocketStubResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A593D6218F0FD390015BFB6 /* HKLTCPSocketStubResponseTests.m */; };
-		1AFCFC8219B558CD0051809F /* HKLUDPSocketStubResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCFC7D19B558CD0051809F /* HKLUDPSocketStubResponse.m */; };
-		1AFCFC8319B558CD0051809F /* HKLUDPSocketStubResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCFC7D19B558CD0051809F /* HKLUDPSocketStubResponse.m */; };
 		1AFCFC8419B558CD0051809F /* HKLUDPSocketStubServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCFC7F19B558CD0051809F /* HKLUDPSocketStubServer.m */; };
-		1AFCFC8519B558CD0051809F /* HKLUDPSocketStubServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCFC7F19B558CD0051809F /* HKLUDPSocketStubServer.m */; };
 		1AFCFC8619B558CD0051809F /* NSDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCFC8119B558CD0051809F /* NSDataEx.m */; };
-		1AFCFC8719B558CD0051809F /* NSDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCFC8119B558CD0051809F /* NSDataEx.m */; };
-		CA29FDE8199A458C9CC26F3D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA00F6CCE28D49F8A90D2676 /* libPods.a */; };
+		1C1204B5452F6C087F7ACCB8 /* libPods-HKLSocketStubServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5484C4E2C1EF2CE9EA35E5A1 /* libPods-HKLSocketStubServer.a */; };
+		2E6065A11E001C34002738E8 /* HKLUDPSocketStubResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCFC7D19B558CD0051809F /* HKLUDPSocketStubResponse.m */; };
+		F64CEEC4AC9B0A7B579460A6 /* libPods-HKLSocketStubServer-HKLSocketStubServerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FAAD81B5D9712E09E8C453 /* libPods-HKLSocketStubServer-HKLSocketStubServerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		05A37BEA5A89027264249F3B /* Pods-HKLSocketStubServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKLSocketStubServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-HKLSocketStubServer/Pods-HKLSocketStubServer.release.xcconfig"; sourceTree = "<group>"; };
 		1A17BEE918F42EAF004CA121 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		1A50C80918F45BF000E7A3C5 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
 		1A593D2A18F0F02A0015BFB6 /* libHKLSocketStubServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHKLSocketStubServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,8 +80,11 @@
 		1AFCFC7F19B558CD0051809F /* HKLUDPSocketStubServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLUDPSocketStubServer.m; sourceTree = "<group>"; };
 		1AFCFC8019B558CD0051809F /* NSDataEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataEx.h; sourceTree = "<group>"; };
 		1AFCFC8119B558CD0051809F /* NSDataEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataEx.m; sourceTree = "<group>"; };
-		BD586AA05696403D941B2DB1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		EA00F6CCE28D49F8A90D2676 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7E093815E8BA11FAA0CFDB /* Pods-HKLSocketStubServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKLSocketStubServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HKLSocketStubServer/Pods-HKLSocketStubServer.debug.xcconfig"; sourceTree = "<group>"; };
+		5484C4E2C1EF2CE9EA35E5A1 /* libPods-HKLSocketStubServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HKLSocketStubServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A986A1561BF6E312C59942C /* Pods-HKLSocketStubServer-HKLSocketStubServerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKLSocketStubServer-HKLSocketStubServerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HKLSocketStubServer-HKLSocketStubServerTests/Pods-HKLSocketStubServer-HKLSocketStubServerTests.release.xcconfig"; sourceTree = "<group>"; };
+		DFEB92B86C94988DCC89F250 /* Pods-HKLSocketStubServer-HKLSocketStubServerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKLSocketStubServer-HKLSocketStubServerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HKLSocketStubServer-HKLSocketStubServerTests/Pods-HKLSocketStubServer-HKLSocketStubServerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5FAAD81B5D9712E09E8C453 /* libPods-HKLSocketStubServer-HKLSocketStubServerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HKLSocketStubServer-HKLSocketStubServerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +93,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A593D2E18F0F02A0015BFB6 /* Foundation.framework in Frameworks */,
-				CA29FDE8199A458C9CC26F3D /* libPods.a in Frameworks */,
+				1C1204B5452F6C087F7ACCB8 /* libPods-HKLSocketStubServer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +105,7 @@
 				1A593D3F18F0F02A0015BFB6 /* UIKit.framework in Frameworks */,
 				1A593D3D18F0F02A0015BFB6 /* Foundation.framework in Frameworks */,
 				1A593D4218F0F02A0015BFB6 /* libHKLSocketStubServer.a in Frameworks */,
+				F64CEEC4AC9B0A7B579460A6 /* libPods-HKLSocketStubServer-HKLSocketStubServerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +119,7 @@
 				1A593D4318F0F02A0015BFB6 /* HKLSocketStubServerTests */,
 				1A593D2C18F0F02A0015BFB6 /* Frameworks */,
 				1A593D2B18F0F02A0015BFB6 /* Products */,
-				BD586AA05696403D941B2DB1 /* Pods.xcconfig */,
+				7B8588BFCD3DE8BEFC576D62 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,7 +138,8 @@
 				1A593D2D18F0F02A0015BFB6 /* Foundation.framework */,
 				1A593D3B18F0F02A0015BFB6 /* XCTest.framework */,
 				1A593D3E18F0F02A0015BFB6 /* UIKit.framework */,
-				EA00F6CCE28D49F8A90D2676 /* libPods.a */,
+				5484C4E2C1EF2CE9EA35E5A1 /* libPods-HKLSocketStubServer.a */,
+				F5FAAD81B5D9712E09E8C453 /* libPods-HKLSocketStubServer-HKLSocketStubServerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +196,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7B8588BFCD3DE8BEFC576D62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F7E093815E8BA11FAA0CFDB /* Pods-HKLSocketStubServer.debug.xcconfig */,
+				05A37BEA5A89027264249F3B /* Pods-HKLSocketStubServer.release.xcconfig */,
+				DFEB92B86C94988DCC89F250 /* Pods-HKLSocketStubServer-HKLSocketStubServerTests.debug.xcconfig */,
+				7A986A1561BF6E312C59942C /* Pods-HKLSocketStubServer-HKLSocketStubServerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,11 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A593D4D18F0F02A0015BFB6 /* Build configuration list for PBXNativeTarget "HKLSocketStubServer" */;
 			buildPhases = (
-				7C19F107863745DD90EA5EBE /* Check Pods Manifest.lock */,
+				BCAD4DA16877B11B4A77849D /* [CP] Check Pods Manifest.lock */,
 				1A593D2618F0F02A0015BFB6 /* Sources */,
 				1A593D2718F0F02A0015BFB6 /* Frameworks */,
 				1A593D2818F0F02A0015BFB6 /* CopyFiles */,
-				3971D017F02D4C9A8BDB37C3 /* Copy Pods Resources */,
+				E7696F2362C71AC6015E6561 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A593D5018F0F02A0015BFB6 /* Build configuration list for PBXNativeTarget "HKLSocketStubServerTests" */;
 			buildPhases = (
+				F1220AE152EA5C571B6AAC85 /* [CP] Check Pods Manifest.lock */,
 				1A593D3618F0F02A0015BFB6 /* Sources */,
 				1A593D3718F0F02A0015BFB6 /* Frameworks */,
 				1A593D3818F0F02A0015BFB6 /* Resources */,
+				1D45C4C26C9446939DF25777 /* [CP] Embed Pods Frameworks */,
+				E8D57303B60974A81F8997E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,7 +256,7 @@
 		1A593D2218F0F02A0015BFB6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = KatokichiSoft;
 			};
 			buildConfigurationList = 1A593D2518F0F02A0015BFB6 /* Build configuration list for PBXProject "HKLSocketStubServer" */;
@@ -272,34 +290,79 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3971D017F02D4C9A8BDB37C3 /* Copy Pods Resources */ = {
+		1D45C4C26C9446939DF25777 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HKLSocketStubServer-HKLSocketStubServerTests/Pods-HKLSocketStubServer-HKLSocketStubServerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7C19F107863745DD90EA5EBE /* Check Pods Manifest.lock */ = {
+		BCAD4DA16877B11B4A77849D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7696F2362C71AC6015E6561 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HKLSocketStubServer/Pods-HKLSocketStubServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D57303B60974A81F8997E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HKLSocketStubServer-HKLSocketStubServerTests/Pods-HKLSocketStubServer-HKLSocketStubServerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1220AE152EA5C571B6AAC85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -312,8 +375,8 @@
 				1A593D3518F0F02A0015BFB6 /* HKLSocketStubServer.m in Sources */,
 				1A593D5D18F0F1820015BFB6 /* HKLTCPSocketStubResponse.m in Sources */,
 				1A593D5B18F0F1820015BFB6 /* HKLSocketStubResponse.m in Sources */,
+				2E6065A11E001C34002738E8 /* HKLUDPSocketStubResponse.m in Sources */,
 				1AFCFC8419B558CD0051809F /* HKLUDPSocketStubServer.m in Sources */,
-				1AFCFC8219B558CD0051809F /* HKLUDPSocketStubResponse.m in Sources */,
 				1AFCFC8619B558CD0051809F /* NSDataEx.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,9 +388,6 @@
 				1A593D6118F0F1A50015BFB6 /* HKLSocketStubServerTests.m in Sources */,
 				1A593D6318F0FD390015BFB6 /* HKLTCPSocketStubResponseTests.m in Sources */,
 				1A593D6018F0F1A50015BFB6 /* HKLSocketStubResponseTests.m in Sources */,
-				1AFCFC8519B558CD0051809F /* HKLUDPSocketStubServer.m in Sources */,
-				1AFCFC8319B558CD0051809F /* HKLUDPSocketStubResponse.m in Sources */,
-				1AFCFC8719B558CD0051809F /* NSDataEx.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,12 +426,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -384,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -403,19 +469,24 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -423,7 +494,7 @@
 		};
 		1A593D4E18F0F02A0015BFB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD586AA05696403D941B2DB1 /* Pods.xcconfig */;
+			baseConfigurationReference = 4F7E093815E8BA11FAA0CFDB /* Pods-HKLSocketStubServer.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/HKLSocketStubServer.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -436,7 +507,7 @@
 		};
 		1A593D4F18F0F02A0015BFB6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD586AA05696403D941B2DB1 /* Pods.xcconfig */;
+			baseConfigurationReference = 05A37BEA5A89027264249F3B /* Pods-HKLSocketStubServer.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/HKLSocketStubServer.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -449,6 +520,7 @@
 		};
 		1A593D5118F0F02A0015BFB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFEB92B86C94988DCC89F250 /* Pods-HKLSocketStubServer-HKLSocketStubServerTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -469,6 +541,7 @@
 				);
 				INFOPLIST_FILE = "HKLSocketStubServerTests/HKLSocketStubServerTests-Info.plist";
 				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -476,6 +549,7 @@
 		};
 		1A593D5218F0F02A0015BFB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A986A1561BF6E312C59942C /* Pods-HKLSocketStubServer-HKLSocketStubServerTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -492,6 +566,7 @@
 				);
 				INFOPLIST_FILE = "HKLSocketStubServerTests/HKLSocketStubServerTests-Info.plist";
 				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};

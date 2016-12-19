@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HKLSocketStubResponse.h"
-#import "GCDAsyncUdpSocket.h"
+#import "CocoaAsyncSocket/GCDAsyncUdpSocket.h"
 
 @interface HKLUDPSocketStubResponse : HKLSocketStubResponse
 <GCDAsyncUdpSocketDelegate, NSCopying>

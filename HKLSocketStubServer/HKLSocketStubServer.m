@@ -8,7 +8,8 @@
 
 #import "HKLSocketStubServer.h"
 #import "HKLTCPSocketStubResponse.h"
-#import "GCDAsyncSocket.h"
+#import "CocoaAsyncSocket/GCDAsyncSocket.h"
+#import "NSDataEx.h"
 
 #pragma mark -
 @interface HKLSocketStubGetter : HKLSocketStubServer
@@ -179,21 +180,31 @@
     return stub;
 }
 
-#pragma mark -
+#pragma mark - Read Scheduling
+
+- (void)scheduleReadForSocket:(GCDAsyncSocket *)socket
+{
+    NSData *separator = [HKLGlobalSettings globalSettings].separatorData;
+    if (separator) {
+        [socket readDataToData:separator
+                      withTimeout:-1
+                              tag:0];
+    }
+    else {
+        [socket readDataWithTimeout:-1
+                                tag:0];
+    }
+}
+
+
+#pragma mark - Socket Delegate
+
 - (void)    socket:(GCDAsyncSocket *)sock
 didAcceptNewSocket:(GCDAsyncSocket *)newSocket
 {
     [_acceptSocks addObject:newSocket];
 
-    NSData *separator = [HKLGlobalSettings globalSettings].separatorData;
-    if (separator) {
-        [newSocket readDataToData:separator
-                      withTimeout:-1
-                              tag:0];
-    } else {
-        [newSocket readDataWithTimeout:-1
-                                   tag:0];
-    }
+    [self scheduleReadForSocket:newSocket];
 
     HKLSocketStubResponse<GCDAsyncSocketDelegate> *matched = [self responseWhenAccepted];
     if (matched) {
@@ -212,11 +223,13 @@ didAcceptNewSocket:(GCDAsyncSocket *)newSocket
         // [sock setDelegate:matched];
         sock.userData = matched;
 
-        if (matched.checkBlock) {
+        //No need as this is called from inside response
+        /*if (matched.checkBlock) {
             matched.checkBlock(data);
-        }
+        }*/
         [matched socket:sock didReadData:data withTag:tag];
     }
+    [self scheduleReadForSocket:sock];
 }
 
 - (void)            socket:(GCDAsyncSocket *)sock
